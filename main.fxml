@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="572.0" prefWidth="1023.0" styleClass="parent" stylesheets="@mystyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.MainController">
+   <children>
+      <Pane layoutX="22.0" layoutY="106.0" prefHeight="430.0" prefWidth="997.0" styleClass="pane">
+         <children>
+            <Label layoutX="21.0" layoutY="67.0" prefHeight="62.0" prefWidth="301.0" styleClass="font" stylesheets="@mystyle.css" text="Don't have an account ?">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="14.0" layoutY="127.0" prefHeight="114.0" prefWidth="221.0" styleClass="font2" stylesheets="@mystyle.css" text=" Our hospital is a health care institution providing patient treatment with specialized medical" wrapText="true" />
+            <Button layoutX="21.0" layoutY="265.0" mnemonicParsing="false" onAction="#open_signup" prefHeight="42.0" prefWidth="107.0" styleClass="buttons2" stylesheets="@mystyle.css" text="Sign up" />
+            <Label layoutX="747.0" layoutY="81.0" prefHeight="32.0" prefWidth="202.0" styleClass="font" stylesheets="@mystyle.css" text="Have an account ?">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="747.0" layoutY="127.0" prefHeight="114.0" prefWidth="221.0" styleClass="font2" stylesheets="@mystyle.css" text=" Our hospital is a health care institution providing patient treatment with specialized medical" wrapText="true" />
+            <Button layoutX="750.0" layoutY="276.0" mnemonicParsing="false" onAction="#open_signin" prefHeight="42.0" prefWidth="107.0" styleClass="buttons2" stylesheets="@mystyle.css" text="Sign In" />
+            <VBox id="vbox" fx:id="vbox" layoutX="7.0" layoutY="-66.0" prefHeight="500.0" prefWidth="663.0" styleClass="vbox" />
+         </children></Pane>
+   </children>
+</AnchorPane>

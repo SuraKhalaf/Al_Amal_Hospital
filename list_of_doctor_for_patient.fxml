@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.List_of_doctor_for_patientController">
+   <children>
+      <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0">
+         <children>
+            <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0">
+               <children>
+                  <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="920.0">
+                     <children>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="939.0" style="-fx-background-color: #00CED1;">
+                           <children>
+                              <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="930.0">
+                                 <children>
+                                    <TableView fx:id="t" layoutX="4.0" layoutY="60.0" prefHeight="513.0" prefWidth="900.0" />
+                                    <Label layoutX="540.0" prefHeight="59.0" prefWidth="326.0" text="List-Of-Doctors" textFill="#e8ff00">
+                                       <font>
+                                          <Font name="Candara Bold Italic" size="34.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="140.0" prefHeight="59.0" prefWidth="261.0" text="Al-Amal-Hospital" textFill="#fff90a">
+                                       <font>
+                                          <Font name="Candara Bold Italic" size="36.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="46.0" fitWidth="62.0" layoutX="433.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/50949620_373112316802174_191790437457985536_n.gif" />
+                                       </image>
+                                    </ImageView>
+                                    <Button layoutX="4.0" layoutY="573.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="117.0" styleClass="b" stylesheets="@patient_css.css" text="Back" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                           <padding>
+                              <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+                           </padding>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

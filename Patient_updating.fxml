@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Patient_updatingController">
+   <children>
+      <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="920.0">
+         <children>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="920.0" style="-fx-background-color: #00CED1;">
+               <children>
+                  <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="894.0">
+                     <children>
+                        <ImageView fitHeight="600.0" fitWidth="893.0" layoutX="2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="3.0">
+                           <image>
+                              <Image url="@img/142018866_164004118565804_418952641146709816_n.jpg" />
+                           </image>
+                        </ImageView>
+                        <PasswordField fx:id="bb" layoutX="295.0" layoutY="377.0" prefHeight="31.0" prefWidth="236.0" promptText="Password:" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </PasswordField>
+                        <TextField fx:id="cc" layoutX="33.0" layoutY="377.0" prefHeight="31.0" prefWidth="236.0" promptText="Email:" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="dd" layoutX="295.0" layoutY="309.0" prefHeight="31.0" prefWidth="236.0" promptText="GENDER :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="ff" layoutX="295.0" layoutY="240.0" prefHeight="31.0" prefWidth="236.0" promptText="MIDDLE_NAME :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <PasswordField fx:id="hh" layoutX="295.0" layoutY="445.0" prefHeight="31.0" prefWidth="236.0" promptText="PAT_ADDRESS :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </PasswordField>
+                        <TextField fx:id="gg" layoutX="33.0" layoutY="309.0" prefHeight="31.0" prefWidth="236.0" promptText="LAST_NAME :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="ii" layoutX="33.0" layoutY="445.0" prefHeight="31.0" prefWidth="236.0" promptText="PAT_NUMBER :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="aa" layoutX="33.0" layoutY="169.0" prefHeight="31.0" prefWidth="236.0" promptText="your_id" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                        <Button layoutX="342.0" layoutY="169.0" mnemonicParsing="false" onAction="#log" prefHeight="31.0" prefWidth="189.0" styleClass="b" stylesheets="@patient_css.css" text="Update" />
+                        <Button layoutX="187.0" layoutY="516.0" mnemonicParsing="false" onAction="#log_out" prefHeight="31.0" prefWidth="189.0" styleClass="b" stylesheets="@patient_css.css" text="Back" />
+                        <Label layoutX="376.0" layoutY="9.0" prefHeight="63.0" prefWidth="289.0" text="Hospital" textFill="#0a9fff">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="62.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="21.0" fitWidth="33.0" layoutX="355.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/14787197661582004498-128.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="21.0" fitWidth="27.0" layoutX="198.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/10518404451618134427-48.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="326.0" layoutY="96.0" prefHeight="43.0" prefWidth="362.0" text="Updating-My-Profile" textFill="#ff0101">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="ee" layoutX="33.0" layoutY="240.0" prefHeight="31.0" prefWidth="236.0" promptText="FIRST_NAME :" styleClass="b" stylesheets="@patient_css.css">
+                           <font>
+                              <Font name="System Bold Italic" size="15.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </padding>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="574.0" prefWidth="809.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.AdminMainController">
+   <children>
+      <ImageView fitHeight="424.0" fitWidth="566.0" layoutX="-10.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/regulation-8-amendment-protection-for-all.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="357.0" layoutY="14.0" text="Sign in" textFill="#180a9a">
+         <font>
+            <Font name="Javanese Text" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="413.0" layoutY="185.0" prefHeight="61.0" prefWidth="161.0" style="-fx-background-color: white;" text="Email" textFill="#2d0c80">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="413.0" layoutY="300.0" prefHeight="61.0" prefWidth="161.0" style="-fx-background-color: white;" text="Password" textFill="#2d0c80">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="574.0" layoutY="206.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your email" style="-fx-background-color: transperent; -fx-border-color: #2d0c80; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button layoutX="24.0" layoutY="493.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="66.0" prefWidth="151.0" styleClass="shiny" stylesheets="@mystyle.css" text="Back" />
+      <Button layoutX="629.0" layoutY="493.0" mnemonicParsing="false" onAction="#loginButt" prefHeight="66.0" prefWidth="151.0" styleClass="shiny" stylesheets="@mystyle.css" text="Sign in" />
+      <Label fx:id="invalid" alignment="CENTER" layoutX="286.0" layoutY="457.0" prefHeight="28.0" prefWidth="335.0" textFill="#eb0909">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass" layoutX="574.0" layoutY="314.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your password" style="-fx-background-color: transperent; -fx-border-color: #2d0c80; -fx-border-width: 0px 0px 2px 0px;" />
+   </children>
+</AnchorPane>

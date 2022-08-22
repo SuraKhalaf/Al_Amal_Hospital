@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="814.0" style="-fx-background-color: #c5d7ed;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.DocInfoUpController">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="607.0" prefWidth="226.0" style="-fx-background-color: #0f337a;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="173.0" layoutX="38.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/15452596561548234966-256.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="11.0" layoutY="277.0" mnemonicParsing="false" onAction="#changepass_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="Change my password" />
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="14.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/3232868021582113973-48.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="11.0" layoutY="401.0" mnemonicParsing="false" onAction="#about_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="About the Hospital" />
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="14.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/717836311606252958-64.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="302.0" layoutY="44.0" prefHeight="54.0" prefWidth="373.0" text="Al Amal Hospital" textFill="#1e0697">
+         <font>
+            <Font name="Webdings" size="47.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="645.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/14102962671595341166-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="271.0" layoutY="116.0" prefHeight="43.0" prefWidth="311.0" text="Update my information" textFill="#1e0697">
+         <font>
+            <Font name="Bell MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="225.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/4520715061600002666-48.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="508.0" layoutY="533.0" mnemonicParsing="false" onAction="#update_butt" prefHeight="54.0" prefWidth="120.0" styleClass="buttons" stylesheets="@mystyle.css" text="Update" textFill="#477fdae5" />
+      <TextField fx:id="email" layoutX="427.0" layoutY="235.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your email" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <Label layoutX="317.0" layoutY="241.0" prefHeight="21.0" prefWidth="120.0" text="Email" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="582.0" layoutY="177.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your ID" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <Label layoutX="266.0" layoutY="182.0" prefHeight="23.0" prefWidth="342.0" text="Enter your ID to Update your information" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="title" layoutX="433.0" layoutY="286.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your title" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <Label layoutX="323.0" layoutY="292.0" prefHeight="21.0" prefWidth="120.0" text="Title" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="comp" layoutX="429.0" layoutY="341.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your competence" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <Label layoutX="319.0" layoutY="347.0" prefHeight="21.0" prefWidth="120.0" text="Competence" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phone" layoutX="433.0" layoutY="398.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter your phone" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <Label layoutX="323.0" layoutY="404.0" prefHeight="21.0" prefWidth="120.0" text="Phone" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="19.0" fitWidth="27.0" layoutX="272.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/16462029671582806316-20.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="31.0" layoutX="231.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/15297262951582799500-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="33.0" layoutX="275.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/19047501981578982961-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="28.0" layoutX="272.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/9306936241606988091-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="28.0" layoutX="272.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/18070286501543238910-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="512.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/4520715061600002666-48.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="667.0" layoutY="533.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="54.0" prefWidth="120.0" styleClass="buttons" stylesheets="@mystyle.css" text="Back" textFill="#477fdae5" />
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="677.0" layoutY="549.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/10518404451618134427-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="31.0" layoutX="231.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/16435998701606252957-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="271.0" layoutY="487.0" prefHeight="23.0" prefWidth="342.0" text="Do you want to add medicien ?" textFill="#1e0697f2">
+         <font>
+            <Font name="Californian FB Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="med" layoutX="522.0" layoutY="482.0" prefHeight="33.0" prefWidth="213.0" promptText="Enter medicien ID" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+   </children>
+</AnchorPane>

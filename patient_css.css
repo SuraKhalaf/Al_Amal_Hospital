@@ -1,0 +1,38 @@
+.root{
+  -fx-background-color:pink;
+    
+}
+
+.t{
+   -fx-font-size:16px;
+   -fx-text-fill:brown;
+  -fx-font-weight:#191970;
+   -fx-background-radius:13px;
+}
+
+.b{
+
+    -fx-box-shadow: -30px 50px orange, -2px 20px orange, -1px 1px orange;
+    -fx-border: 1px solid orange;
+    -fx-text-fill:#191970;
+     -fx-background-radius:13px;
+     -fx-color:powderblue;
+    
+}
+
+.c{
+   -fx-background-color:powderblue; 
+}
+.B{
+   -fx-background-color:aquamarine;  
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/05/2021, 01:50:46 ص
+    Author     : zaytona
+*/
+

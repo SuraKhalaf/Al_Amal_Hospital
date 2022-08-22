@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.ShowdisController">
+   <children>
+      <ImageView fitHeight="614.0" fitWidth="815.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/clean-medical-background_53876-97927.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="248.0" layoutY="54.0" text="Show Diseases" textFill="#377ea1">
+         <font>
+            <Font name="Tempus Sans ITC" size="38.0" />
+         </font>
+      </Label>
+      <TableView fx:id="t" layoutX="194.0" layoutY="158.0" prefHeight="281.0" prefWidth="593.0" />
+      <Button layoutX="637.0" layoutY="464.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="63.0" prefWidth="116.0" styleClass="buttons" stylesheets="@mystyle.css" text="Back" textFill="#477fdae5" />
+      <ImageView fitHeight="63.0" fitWidth="107.0" layoutX="491.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/886612481579245438-128.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

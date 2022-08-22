@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="hospital.AboutttController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-6.0" prefHeight="616.0" prefWidth="919.0" style="-fx-background-color: #00CED1;">
+         <children>
+            <Pane layoutX="325.0" layoutY="22.0" prefHeight="578.0" prefWidth="584.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Text fill="#6a00ff" layoutX="28.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Amal Hospital Is the first leading hospital in the jenin to serve the health sector for the addicts and psychiatrists was established and the extraction of medical   trainees in the jenin of the medical sector at the highest level of quality standards and international health care for the treatment of addiction and psychiatry" wrappingWidth="461.6708984375">
+                     <font>
+                        <Font name="Microsoft YaHei Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="52.0" fitWidth="50.0" layoutX="12.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/50949620_373112316802174_191790437457985536_n.gif" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="76.0" layoutY="37.0" prefHeight="41.0" prefWidth="267.0" text="Al-Amal-Hospital">
+                     <font>
+                        <Font name="Courier 10 Pitch Bold BT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="52.0" layoutY="160.0" prefHeight="41.0" prefWidth="139.0" text="About_Us:" textFill="#3811ff">
+                     <font>
+                        <Font name="MT Extra" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="52.0" prefHeight="52.0" prefWidth="256.0" text="   H      o     s    p      i   t    a    l" textFill="#eb0000">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="23.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/9185382391582988862-128.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="32.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/10093892231579683159-64.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="21.0" fitWidth="25.0" layoutX="32.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/18070286501543238910-24.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="57.0" layoutY="392.0" prefHeight="21.0" prefWidth="200.0" text="Location:  jenin">
+                     <font>
+                        <Font name="Monospace 821 Bold BT" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="425.0" prefHeight="21.0" prefWidth="256.0" text="Connect with us: 0599222333">
+                     <font>
+                        <Font name="Monospace 821 Bold BT" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="24.0" layoutY="45.0" prefHeight="41.0" prefWidth="267.0" text="Al-Amal-Hospital">
+               <font>
+                  <Font name="Courier 10 Pitch Bold BT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="69.0" prefHeight="52.0" prefWidth="256.0" text="   H      o     s    p      i   t    a    l" textFill="#eb0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="432.0" fitWidth="276.0" layoutX="24.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/undraw_in_sync_xwsa.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="78.0" layoutY="410.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="31.0" prefWidth="189.0" styleClass="b" stylesheets="@patient_css.css" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="845.0" style="-fx-background-color: #c5d7ed;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.DocPassChangeController">
+   <children>
+      <Button layoutX="275.0" layoutY="588.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="54.0" prefWidth="131.0" styleClass="exit" stylesheets="@mystyle.css" text="Back" />
+      <Label layoutX="356.0" layoutY="81.0" prefHeight="54.0" prefWidth="373.0" text="Al Amal Hospital" textFill="#1e0697">
+         <font>
+            <Font name="Webdings" size="47.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="699.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/14102962671595341166-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="289.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/10518404451618134427-48.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="310.0" layoutY="194.0" prefHeight="43.0" prefWidth="254.0" text="Change my password" textFill="#1e0697">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="257.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/3232868021582113973-48.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="pass" layoutX="500.0" layoutY="289.0" prefHeight="46.0" prefWidth="319.0" promptText="Enter old password" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-field" stylesheets="@mystyle.css">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="pass1" layoutX="500.0" layoutY="408.0" prefHeight="46.0" prefWidth="319.0" promptText="Confirm password" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-field" stylesheets="@mystyle.css">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="299.0" layoutY="291.0" prefHeight="43.0" prefWidth="161.0" text="Enter old password" textFill="#1e0697">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="417.0" prefHeight="43.0" prefWidth="190.0" text="Confirm password" textFill="#1e0697">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="688.0" layoutY="588.0" mnemonicParsing="false" onAction="#update_butt" prefHeight="54.0" prefWidth="131.0" styleClass="exit" stylesheets="@mystyle.css" text="Update" />
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="699.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/8017053371585493766-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="259.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/7205445111595501398-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="259.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/7205445111595501398-24.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="-1.0" prefHeight="657.0" prefWidth="239.0" style="-fx-background-color: #0f337a;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="173.0" layoutX="39.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/15452596561548234966-256.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="17.0" layoutY="293.0" mnemonicParsing="false" onAction="#info_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="Update my information" />
+            <Button layoutX="17.0" layoutY="429.0" mnemonicParsing="false" onAction="#about_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="About the Hospital" />
+            <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="17.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/4520715061600002666-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="24.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/717836311606252958-64.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="276.0" layoutY="545.0" prefHeight="43.0" prefWidth="515.0" styleClass="invalid_label" stylesheets="@mystyle.css">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass2" layoutX="504.0" layoutY="352.0" prefHeight="46.0" prefWidth="319.0" promptText="Enter new password" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-field" stylesheets="@mystyle.css">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="303.0" layoutY="354.0" prefHeight="43.0" prefWidth="161.0" text="Enter new password" textFill="#1e0697">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="259.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/7205445111595501398-24.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="299.0" layoutY="483.0" prefHeight="43.0" prefWidth="190.0" text="Enter your ID" textFill="#1e0697">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="259.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/15297262951582799500-48.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="id" layoutX="504.0" layoutY="482.0" prefHeight="46.0" prefWidth="319.0" promptText="Enter your ID" style="-fx-background-color: transperent; -fx-border-color: #1e0697; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-field" stylesheets="@mystyle.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

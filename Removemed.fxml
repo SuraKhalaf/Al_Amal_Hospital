@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="607.0" prefWidth="814.0" style="-fx-background-color: #60c1d6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.RemovemedController">
+   <children>
+      <ImageView fitHeight="575.0" fitWidth="931.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/abstract-blue-bright-background-health-care-icon-pattern-medical-innovation-concept_44392-178.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="207.0" layoutY="54.0" text="Searching for medicien" textFill="#23138d">
+         <font>
+            <Font name="Britannic Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="143.0" text="Medicien ID" textFill="#23138d">
+         <font>
+            <Font name="Baskerville Old Face" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="med_ID" layoutX="185.0" layoutY="138.0" prefHeight="33.0" prefWidth="265.0" promptText="Enter Medicien ID" style="-fx-background-color: transperent; -fx-border-color: #23138d; -fx-border-width: 0px 0px 2px 0px;" stylesheets="@mystyle.css" />
+      <TableView fx:id="t" layoutX="159.0" layoutY="223.0" prefHeight="276.0" prefWidth="497.0" />
+      <Button layoutX="574.0" layoutY="523.0" mnemonicParsing="false" onAction="#searchp_butt" prefHeight="66.0" prefWidth="220.0" styleClass="shiny" stylesheets="@mystyle.css" text="Search Medicien" />
+      <Button layoutX="287.0" layoutY="523.0" mnemonicParsing="false" onAction="#show_butt" prefHeight="66.0" prefWidth="220.0" styleClass="shiny" stylesheets="@mystyle.css" text="Show all Medicien" />
+      <Button layoutX="14.0" layoutY="523.0" mnemonicParsing="false" onAction="#back_butt" prefHeight="66.0" prefWidth="220.0" styleClass="shiny" stylesheets="@mystyle.css" text="Back" />
+      <ImageView fitHeight="105.0" fitWidth="128.0" layoutX="667.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/7575857931578287713-128.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

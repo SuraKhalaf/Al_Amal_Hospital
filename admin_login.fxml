@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Admin_loginController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="814.0" style="-fx-background-color: #c5e0e0;">
+         <children>
+            <Button layoutX="255.0" layoutY="250.0" mnemonicParsing="false" onAction="#addpat_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Add patient" />
+            <Button layoutX="255.0" layoutY="317.0" mnemonicParsing="false" onAction="#addop_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Add operation" />
+            <Button layoutX="255.0" layoutY="382.0" mnemonicParsing="false" onAction="#updatePat_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Update patient information" />
+            <Button layoutX="545.0" layoutY="251.0" mnemonicParsing="false" onAction="#removePat_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Remove and show patient" />
+            <Button layoutX="545.0" layoutY="318.0" mnemonicParsing="false" onAction="#addmed_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text=" Add medicine" />
+            <Button layoutX="545.0" layoutY="382.0" mnemonicParsing="false" onAction="#searchmed_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Search and show medicine" />
+            <Label layoutX="346.0" layoutY="71.0" prefHeight="54.0" prefWidth="373.0" text="Al Amal Hospital" textFill="#1e0697">
+               <font>
+                  <Font name="Webdings" size="47.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="689.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/14102962671595341166-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="267.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/657787511556281664-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="31.0" layoutX="261.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/17113492681579245439-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="31.0" layoutX="546.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/17180325881578287708-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="550.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10228094851541068761-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="546.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/14506599291585491858-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="265.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/8017053371585493766-48.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="-1.0" prefHeight="607.0" prefWidth="218.0" style="-fx-background-color: #62989c;">
+               <children>
+                  <ImageView fitHeight="127.0" fitWidth="122.0" layoutX="47.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/16997116491579762120-128.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="8.0" layoutY="157.0" mnemonicParsing="false" onAction="#changepass_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="Change my password" />
+                  <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="11.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/3232868021582113973-48.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="8.0" layoutY="255.0" mnemonicParsing="false" onAction="#info_butt" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="Update my information" />
+                  <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="11.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/4520715061600002666-48.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="48.0" layoutY="530.0" mnemonicParsing="false" onAction="#Logout_butt" prefHeight="54.0" prefWidth="131.0" styleClass="exit" stylesheets="@mystyle.css" text="Logout" />
+                  <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="55.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/10518404451618134427-48.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="6.0" layoutY="350.0" mnemonicParsing="false" onAction="#jasper" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="JasperReport" />
+                  <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="13.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/15071590061574055268-128.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="6.0" layoutY="441.0" mnemonicParsing="false" onAction="#jasper2" prefHeight="54.0" prefWidth="205.0" styleClass="buttons" stylesheets="@mystyle.css" text="JasperReport 2" />
+                  <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="13.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/15071590061574055268-128.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button layoutX="255.0" layoutY="448.0" mnemonicParsing="false" onAction="#searchpat_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Searching for Patient" />
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="267.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10217013321529659193-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="546.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/14506599291585491858-48.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="545.0" layoutY="450.0" mnemonicParsing="false" onAction="#showop_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Show and remove operations" />
+            <Button layoutX="255.0" layoutY="517.0" mnemonicParsing="false" onAction="#showdis_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Show all diseases" />
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="256.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/6345512301586787813-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="550.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/6345512301586787813-64.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="255.0" layoutY="184.0" mnemonicParsing="false" onAction="#addDoc_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Add doctor or nurse" />
+            <Button layoutX="545.0" layoutY="185.0" mnemonicParsing="false" onAction="#remDoc_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Control doctors/nurse" />
+            <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="267.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/657787511556281664-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="554.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10228094851541068761-48.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="545.0" layoutY="518.0" mnemonicParsing="false" onAction="#addDis_butt" prefHeight="44.0" prefWidth="239.0" styleClass="docButton" stylesheets="@mystyle.css" text="Add disease" />
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="550.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/20647425811537355420-64.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
